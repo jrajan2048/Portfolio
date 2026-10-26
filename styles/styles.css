@@ -1,0 +1,127 @@
+/* Background color, removes margin and centers text*/
+body{
+    background-color: #2f403b;
+    margin: 0px;
+    text-align: center;
+}
+
+/* Navigation bar styling */
+.navbar{
+    background-color: #1e2b1d;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+/* Links */
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 20px;
+}
+
+/* Adds underline when hovering over link */
+a:hover{
+    text-decoration: underline;
+}
+
+/* Main heading styling */
+h1{
+    color: #f79e32;
+    font-size: 96px;
+    margin: 22px;
+}
+
+/* Orange line */
+hr{
+    border: 2px solid #f79e32;
+    margin: 40px;
+}
+
+/* Subheading styling */
+h2{
+    color: white;
+    font-size: 48px;
+    margin: 17px;
+}
+
+/* Buttons styling */
+.button{
+    display: inline-block;
+    background-color: #f79e32;
+    border-radius: 100px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    width: 28%;
+    color: #433e20;
+    font-size: 64px;
+    font-weight: bolder;
+} 
+
+/* Footer styling */
+.bottombar{
+    background-color:#1e2b1d;
+    padding: 5px;
+    padding-bottom: 23px;
+
+}
+
+/* Footer subheading styling */
+.bottombar h2{
+    font-size: 64px;
+    color: #f79e32;
+}
+
+/* Footer links styling */
+.bottombar a{
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* Spaces image and adds border around image */
+img{
+    margin: 10px;
+    border: #f79e32 solid 2px;
+}
+
+/* Layout of image */
+.image{
+    align-content: center;
+    display: inline-flex;
+}
+
+/* Layout of image text */
+.image-text{
+    display: inline-flex;
+}
+
+/* Paragraph styling */
+p{
+    color: white;
+    margin: auto;
+    width: 80%;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Small text styling */
+h3{
+    font-size: 32px;
+    color: #f79e32;
+}
+
+/* Smaller text styling */
+h4{
+    font-size: 34px;
+    color: #f79e32;
+    align-items: center;
+    margin-left: 109px;
+    margin-right: 109px;
+}
